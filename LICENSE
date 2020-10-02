@@ -111,18 +111,19 @@ work under this License, and how to view a copy of this License.  If
 the interface presents a list of user commands or options, such as a
 menu, a prominent item in the list meets this criterion.
 
+  
+  
+  
   1. Source Code.
 
-  The "source code" for a work means the preferred form of the work
+The "source code" for a work means the preferred form of the work
 for making modifications to it.  "Object code" means any non-source
 form of a work.
-
-  A "Standard Interface" means an interface that either is an official
+A "Standard Interface" means an interface that either is an official
 standard defined by a recognized standards body, or, in the case of
 interfaces specified for a particular programming language, one that
 is widely used among developers working in that language.
-
-  The "System Libraries" of an executable work include anything, other
+The "System Libraries" of an executable work include anything, other
 than the work as a whole, that (a) is included in the normal form of
 packaging a Major Component, but which is not part of that Major
 Component, and (b) serves only to enable use of the work with that
@@ -145,17 +146,17 @@ the work, and the source code for shared libraries and dynamically
 linked subprograms that the work is specifically designed to require,
 such as by intimate data communication or control flow between those
 subprograms and other parts of the work.
-
-  The Corresponding Source need not include anything that users
+The Corresponding Source need not include anything that users
 can regenerate automatically from other parts of the Corresponding
 Source.
-
-  The Corresponding Source for a work in source code form is that
+The Corresponding Source for a work in source code form is that
 same work.
 
-  2. Basic Permissions.
 
-  All rights granted under this License are granted for the term of
+
+2. Basic Permissions.
+
+All rights granted under this License are granted for the term of
 copyright on the Program, and are irrevocable provided the stated
 conditions are met.  This License explicitly affirms your unlimited
 permission to run the unmodified Program.  The output from running a
@@ -173,12 +174,13 @@ not control copyright.  Those thus making or running the covered works
 for you must do so exclusively on your behalf, under your direction
 and control, on terms that prohibit them from making any copies of
 your copyrighted material outside their relationship with you.
-
-  Conveying under any other circumstances is permitted solely under
+Conveying under any other circumstances is permitted solely under
 the conditions stated below.  Sublicensing is not allowed; section 10
 makes it unnecessary.
 
-  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+
+
+3. Protecting Users' Legal Rights From Anti-Circumvention Law.
 
   No covered work shall be deemed part of an effective technological
 measure under any applicable law fulfilling obligations under article
@@ -186,7 +188,7 @@ measure under any applicable law fulfilling obligations under article
 similar laws prohibiting or restricting circumvention of such
 measures.
 
-  When you convey a covered work, you waive any legal power to forbid
+When you convey a covered work, you waive any legal power to forbid
 circumvention of technological measures to the extent such circumvention
 is effected by exercising rights under this License with respect to
 the covered work, and you disclaim any intention to limit operation or
@@ -194,9 +196,11 @@ modification of the work as a means of enforcing, against the work's
 users, your or third parties' legal rights to forbid circumvention of
 technological measures.
 
-  4. Conveying Verbatim Copies.
 
-  You may convey verbatim copies of the Program's source code as you
+
+4. Conveying Verbatim Copies.
+
+You may convey verbatim copies of the Program's source code as you
 receive it, in any medium, provided that you conspicuously and
 appropriately publish on each copy an appropriate copyright notice;
 keep intact all notices stating that this License and any
